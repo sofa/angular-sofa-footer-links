@@ -1,4 +1,4 @@
 
 <ul class="sofa-footer-list">
-    <li bindonce="item" ng-repeat="item in items" ng-click="goTo(item)" bo-text="item.title" class="sofa-footer-list__item"></li>
+    <li ng-repeat="item in ::items" ng-click="goTo(item)" class="sofa-footer-list__item">{{::item.title}}</li>
 </ul>

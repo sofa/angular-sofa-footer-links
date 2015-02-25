@@ -1,14 +1,13 @@
 angular.module('sofa.footerLinks', [
     'sofa-footer-links.tpl.html',
     'sofa.core',
-    'sofa.navigationService',
-    'pasvaz.bindonce'
+    'sofa.navigationService'
 ])
     .directive('sofaFooterLinks', function(configService, navigationService) {
 
         'use strict';
 
-        var defaultIfUndefined = function(scope, property, defaultVal){
+        var defaultIfUndefined = function(scope, property, defaultVal) {
             scope[property] = scope[property] === undefined ? defaultVal : scope[property];
         };
 
@@ -22,7 +21,7 @@ angular.module('sofa.footerLinks', [
                 items: '=?'
             },
             templateUrl: 'sofa-footer-links.tpl.html',
-            link: function(scope, element, attrs){
+            link: function(scope) {
                 defaultIfUndefined(scope, 'items', ABOUT_PAGES);
 
                 scope.goTo = function(item){
