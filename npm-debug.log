@@ -1,0 +1,39 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'i' ]
+2 info using npm@2.3.0
+3 info using node@v0.10.26
+4 verbose install where, deps [ '/Users/robinthrift/couch/angular-sofa-footer-links',
+4 verbose install   [ 'angular-bindonce',
+4 verbose install     'angular-sofa-navigation-service',
+4 verbose install     'sofa-core',
+4 verbose install     'gulp',
+4 verbose install     'shared-sofa-component-tasks' ] ]
+5 verbose install where, peers [ '/Users/robinthrift/couch/angular-sofa-footer-links', [] ]
+6 info preinstall angular-sofa-footer-links@0.1.0
+7 verbose already installed skipping shared-sofa-component-tasks@^0.11.x /Users/robinthrift/couch/angular-sofa-footer-links
+8 verbose already installed skipping sofa-core@^0.15.0 /Users/robinthrift/couch/angular-sofa-footer-links
+9 silly cache add args [ 'angular-bindonce@git@github.com:Pasvaz/bindonce.git#0.3.3',
+9 silly cache add   null ]
+10 verbose cache add spec angular-bindonce@git@github.com:Pasvaz/bindonce.git#0.3.3
+11 silly cache add parsed spec { raw: 'angular-bindonce@git@github.com:Pasvaz/bindonce.git#0.3.3',
+11 silly cache add   scope: null,
+11 silly cache add   name: 'angular-bindonce',
+11 silly cache add   rawSpec: 'git@github.com:Pasvaz/bindonce.git#0.3.3',
+11 silly cache add   spec: '/Users/robinthrift/couch/angular-sofa-footer-links/git@github.com:Pasvaz/bindonce.git#0.3.3',
+11 silly cache add   type: 'local' }
+12 verbose already installed skipping angular-sofa-navigation-service@^0.1.2 /Users/robinthrift/couch/angular-sofa-footer-links
+13 verbose already installed skipping gulp@^3.8.10 /Users/robinthrift/couch/angular-sofa-footer-links
+14 error addLocal Could not install /Users/robinthrift/couch/angular-sofa-footer-links/git@github.com:Pasvaz/bindonce.git#0.3.3
+15 verbose stack Error: ENOENT, open '/Users/robinthrift/couch/angular-sofa-footer-links/git@github.com:Pasvaz/bindonce.git#0.3.3'
+16 verbose cwd /Users/robinthrift/couch/angular-sofa-footer-links
+17 error Darwin 14.1.0
+18 error argv "node" "/usr/local/bin/npm" "i"
+19 error node v0.10.26
+20 error npm  v2.3.0
+21 error path /Users/robinthrift/couch/angular-sofa-footer-links/git@github.com:Pasvaz/bindonce.git#0.3.3
+22 error code ENOENT
+23 error errno 34
+24 error enoent ENOENT, open '/Users/robinthrift/couch/angular-sofa-footer-links/git@github.com:Pasvaz/bindonce.git#0.3.3'
+24 error enoent This is most likely not a problem with npm itself
+24 error enoent and is related to npm not being able to find a file.
+25 verbose exit [ 34, true ]
