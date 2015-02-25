@@ -32,7 +32,6 @@
     "shared-sofa-component-tasks": "^0.11.x"
   },
   "dependencies": {
-    "angular-bindonce": "~0.3.3",
     "angular-sofa-navigation-service": "^0.1.2",
     "sofa-core": "^0.15.0"
   }
